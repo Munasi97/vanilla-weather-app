@@ -1,7 +1,19 @@
+body {
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
 h1 {
-  color: #5b1616;
-  font-size: 24px;
-  font-weight: 100;
+  color: #b797c9;
+  font-size: 26px;
+  font-weight: bold;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -34,8 +46,10 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #dadada;
-  border-radius: 5px;
+  border: 8px solid #dadada;
+  border-radius: 25px;
+  background-color: #b9bddb;
+  box-shadow: 0px 0px 25px 10px rgba(71, 44, 92, 0.25);
 }
 
 .location {
@@ -82,4 +96,9 @@ li:first-letter {
 }
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+.btn {
+  background-color: #b797c9;
+  border-color: #a37eda;
 }
